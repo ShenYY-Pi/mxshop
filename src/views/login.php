@@ -14,7 +14,7 @@
         .login {
             width: 400px;
             height: 350px;
-            margin: 280px auto;
+            margin: 80px auto;
         }
     </style>
     <title>MxShop Login</title>
