@@ -12,14 +12,14 @@ if (getUserRole() != 2) {
     <!--<link rel="stylesheet" href="../static/css/element-ui.css">-->
     <link rel="stylesheet" href="https://unpkg.com/element-ui@2.9.1/lib/theme-chalk/index.css">
     <link rel="stylesheet" href="../../static/css/header.css">
-    <title>MxShop 后台管理</title>
+    <title>后台管理</title>
 </head>
 <body>
 <div id="app">
     <el-container>
-        <el-header height="60px" style="background-color: #00425d;">
+        <el-header height="60px" style="background-color: #1572c4;">
             <el-link href="../index.php" :underline="false" style="color: #fff;font-size: 26px;margin-top: 10px;">
-                MxShop 后台管理
+                网上小商城  后台管理
             </el-link>
         </el-header>
         <el-main>

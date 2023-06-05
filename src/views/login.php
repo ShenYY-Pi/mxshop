@@ -17,7 +17,7 @@
             margin: 80px auto;
         }
     </style>
-    <title>MxShop Login</title>
+    <title>网上小商城登录</title>
 </head>
 <body>
 <div id="app">

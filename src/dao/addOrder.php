@@ -46,7 +46,7 @@ try {
         $proNum=(int)$proNum;
         $num=(int)$num;
         $proNum -= $num;
-        if($proNum<0){
+        if($proNum<=0){
             echo json_encode('not_enough');
             exit;
         }

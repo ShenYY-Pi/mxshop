@@ -12,7 +12,7 @@ if (!checkLogin()) {
     <!--<link rel="stylesheet" href="../static/css/element-ui.css">-->
     <link rel="stylesheet" href="https://unpkg.com/element-ui@2.9.1/lib/theme-chalk/index.css">
     <link rel="stylesheet" href="../static/css/header.css">
-    <title>MxShop 订单</title>
+    <title>订单</title>
     <style type="text/css">
         .btn {
             color: rgba(186, 47, 31, 0.86);

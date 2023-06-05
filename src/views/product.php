@@ -7,7 +7,7 @@
     <!--<link rel="stylesheet" href="../static/css/element-ui.css">-->
     <link rel="stylesheet" href="https://unpkg.com/element-ui@2.9.1/lib/theme-chalk/index.css">
     <link rel="stylesheet" href="../static/css/header.css">
-    <title>MxShop </title>
+    <title>网上商城</title>
     <style type="text/css">
         .price {
             width: 90%;
@@ -48,7 +48,6 @@
                         <i class="el-icon-circle-plus-outline btn" @click="addNum"></i>
                         <el-button type="danger" plain size="mini" @click="addCart">加入购物车</el-button>
                     </span>
-
                 </div>
                 <p>{{productInfo.content}}</p>
             </div>
@@ -117,7 +116,7 @@
                     if (res.data != 'error') {
                         that.productInfo = res.data;
                         console.clear();
-                        document.title = 'MxShop '+that.productInfo.name;
+                        document.title = that.productInfo.name;
                     }
                 }).catch(function (err) {
                     console.log(err);

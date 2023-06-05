@@ -12,7 +12,7 @@
     <!--<link rel="stylesheet" href="../static/css/element-ui.css">-->
     <link rel="stylesheet" href="https://unpkg.com/element-ui@2.9.1/lib/theme-chalk/index.css">
     <link rel="stylesheet" href="../static/css/header.css">
-    <title>MxShop 用户信息</title>
+    <title>用户信息</title>
 </head>
 <body>
 <div id="app">
